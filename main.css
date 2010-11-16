@@ -1,0 +1,162 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#ffdfaa;
+}
+#wrapper{
+	background-color:#FFF;
+	width:500px;
+	padding:15px;
+	font-family:Calibri;
+}
+#doubleWrapper{
+	background-color:#FFF;
+	width:600px;
+	padding:15px;
+	font-family:Calibri;
+}
+
+a{
+	color:#0000ee;
+	text-decoration:underline;
+	padding-right:2px;
+	padding-left:2px;
+}
+a:hover{
+	background-color:#d3e7ff;
+	text-decoration:none;
+}
+
+#hostelList{
+	color:#000;
+	width:300px;
+	list-style:none;
+	margin:0px;
+	padding-left:0px;
+	text-align:center;
+	border:1px #000 solid;
+}
+#hostelList li a{
+	background-color:#AAA;
+	margin:2px;
+	display:block;
+	cursor:pointer;
+}
+#err_msg{
+	color:#FFF;
+	background-color:#F00;
+	font-weight:bold;
+	position:absolute;
+}
+.hideS{
+	display:none;
+}
+.signature{
+	padding-top:40px;
+}
+#header{
+	background-color:#FFF;
+	z-index:10;
+	border-top:2px #ccac77 solid;
+	border-bottom:5px #bb9b66 solid;
+}
+#header:hover{
+	padding-top:1px;
+}
+#header:hover a{
+	padding-bottom:3px;
+	padding-top:3px;
+}
+#header a{
+	text-decoration:underline;
+	font-weight:bold;
+}
+#header a:hover{
+	text-decoration:none;
+	background-color:#bb9b66;
+	color:#FFF;
+}
+#dashMenu{
+	background-color:#623;
+	color:#fff;
+	font-weight:bold;
+	padding:5px;
+	cursor:default;
+}
+#dashMenu a{
+	padding:5px;
+	color:#eee;
+	text-decoration:none;
+}
+#dashMenu a:hover{
+	background-color:#734;
+	color:#fff;
+}
+.showInSmall{
+	font-size:8pt;
+	padding:0px;
+}
+.showInSmall .L{
+	color:#F00;
+	font-size:18pt;
+}
+.showInSmall input[type='button']{
+	font-size:8pt;
+}
+#tocDiv{
+	overflow:scroll;
+	height:200px;
+	padding-left:12px;
+	padding-right:12px;
+	text-align:justify;
+	font-size:8pt;
+	margin-bottom:15px;
+	margin-top:40px;
+	color:#151515;
+	border:1px #909090 solid;
+	background-color:#eeeeee;
+	z-index:5;
+	cursor:default;
+}
+#tocDiv:hover{
+	color:#000;
+	border:1px #808080 solid;
+	background-color:#f1f1f1;
+}
+#tocDiv #printContainer{
+	z-index:0;
+	margin-top:-30px;
+	margin-left:-15px;
+	padding:4px;
+	padding-bottom:4px;
+	background-color:#cce;
+	color:#111;
+	float:right;
+	position:absolute;
+	font-size:15pt;
+	border-radius:8px;
+	cursor:pointer;
+}
+#tocDiv:hover #printContainer{
+	background-color:#ddf;
+	color:#111;
+	margin-top:-25px;
+	padding-bottom:0px;
+}
+#tocDiv #printContainer:hover{
+	border:1px #000 solid;
+}
+.TList thead{
+	cursor:default;
+	background-color:#deefff;
+}
+.TList tbody{
+	background-color:#eee;
+	cursor:pointer;
+}
+.TList tbody tr:hover{
+	background-color:#eeffff;
+	border:1px #abacbe solid;
+	text-decoration:underline;
+	font-size-adjust:;
+}

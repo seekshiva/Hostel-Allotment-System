@@ -1,0 +1,62 @@
+body{
+	background-color:#FFF;
+	font-size:18pt;
+}
+#wrapper{
+	background-color:#FFFFFF;
+	width:8.5in;
+	padding:15px;
+	font-family:Calibri;
+}
+
+a{
+	color:#0000ee;
+	text-decoration:none;
+	padding-right:2px;
+	padding-left:2px;
+}
+a:hover{
+	background-color:#d3e7ff;
+	text-decoration:underline;
+}
+
+#hostelList{
+	color:#000;
+	width:300px;
+	list-style:none;
+	margin:0px;
+	padding-left:0px;
+	text-align:center;
+	border:1px #000 solid;
+}
+#hostelList li a{
+	background-color:#AAA;
+	margin:2px;
+	display:block;
+	cursor:pointer;
+}
+#err_msg{
+	color:#FFF;
+	background-color:#F00;
+	font-weight:bold;
+	position:absolute;
+}
+#displayXML{
+	display:none;
+}
+h2{
+	padding-top:10px;
+	text-decoration:underline;
+	font-size:100%;
+	text-align:center;
+}
+.hideP{
+	display:none;
+}
+.signature{
+	padding-top:50px;
+}
+#finalWrapper {
+	margin-top:-10px;
+	padding-top:-10px;
+}
